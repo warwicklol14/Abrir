@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.searchButton {
+    margin: 18px 0 0 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #439FCE;
+    background: #439FCE;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.searchButton svg {
+    fill: whitesmoke;
+}

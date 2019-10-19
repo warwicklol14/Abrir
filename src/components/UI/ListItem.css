@@ -1,0 +1,49 @@
+.right { float: right; }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item_container {
+    padding: 12px;
+    text-transform: uppercase;
+    background-color: #28B9B5;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.item_container_red {
+    padding: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    background-color: #FF5049;
+}
+
+.item_text {
+    float: left;
+    font-size: 14px;
+    color: #444;
+    margin-top: 2px;
+}
+
+.item_value {
+    letter-spacing: 1px;
+    float: left;
+}
+
+.item_percentage {
+    float: left;
+    width: 34px;
+    font-size: 11px;
+    padding: 3px 0;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+}
+
+

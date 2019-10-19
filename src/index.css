@@ -1,0 +1,33 @@
+body {
+    background-color: #439FCE;
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+    position: relative;
+    height: fit-content;
+    font-weight: 200;
+}
+#app {
+    background-color: whitesmoke;
+    width: fit-content;
+    margin: 22px auto;
+    padding: 10px 100px;
+    border-radius: 15px;
+}
+input {
+    border-radius: 25px;
+    border: 2px solid #439FCE;
+    padding: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+.flex-display {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-display-col {
+    display: flex;
+    flex-flow: column nowrap;
+}
